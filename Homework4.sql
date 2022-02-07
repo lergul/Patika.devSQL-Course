@@ -22,6 +22,8 @@ where country like '_____';
 select count(*) from country
 where country like '_____';
 
+select  count(*) from country 
+where length(country) = 5;
 -- 5. How many of the city names in the city table end with the character 'R' or r?
 
 select count(*) from city
@@ -29,3 +31,4 @@ where city ilike ('%r');
 
 select * from city
 where city ilike ('%r');
+
